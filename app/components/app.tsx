@@ -1,9 +1,10 @@
 import "./app.css";
+import Navbar from "./navbar";
 
 export default function App(props: any) {
   return (
     <div className="app">
-      <h1>{props.title}</h1>
+      <Navbar title={props.title} />
     </div>
   );
 }
