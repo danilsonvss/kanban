@@ -8,8 +8,6 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
-import './root.css';
-
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Kanban",
