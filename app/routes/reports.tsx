@@ -1,7 +1,9 @@
-import App from "~/components/app";
+import Layout from "~/layout";
 
 export default function Index() {
   return (
-    <App title="Reports" />
+    <Layout title="Reports">
+      <h1>Relatórios</h1>
+    </Layout>
   );
 }

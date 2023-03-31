@@ -1,15 +1,16 @@
-import boards_icon from "../icons/settings.svg";
-import teams_icon from "../icons/teams.svg";
-import reports_icon from "../icons/reports.svg";
-import settings_icon from "../icons/settings.svg";
+import logo from "./icons/logo.svg";
+import boards_icon from "./icons/boards.svg";
+import teams_icon from "./icons/teams.svg";
+import reports_icon from "./icons/reports.svg";
+import settings_icon from "./icons/settings.svg";
 
 export default function Navbar(props: any) {
   return (
     <div className="navbar">
-      <h1>{props.title}</h1>
+      <img src={logo} className="logo" alt="Logo" />
       <ul>
         <li>
-          <a href="/">
+          <a href="/" className="active">
             <img src={boards_icon} alt="Boards icon" />
             Boards
           </a>

@@ -1,7 +1,11 @@
-import App from "~/components/app";
+import Layout from "~/layout";
 
 export default function Index() {
   return (
-    <App title="Settings" />
+    <Layout title="Settings">
+      <h1>
+        Ajustes
+      </h1>
+    </Layout>
   );
 }

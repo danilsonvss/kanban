@@ -1,7 +1,9 @@
-import App from "~/components/app";
+import Layout from "~/layout";
 
 export default function Index() {
   return (
-    <App title="Teams" />
+    <Layout title="Teams">
+      <h1>Equipes</h1>
+    </Layout>
   );
 }
