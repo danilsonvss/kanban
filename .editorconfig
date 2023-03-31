@@ -1,4 +1,4 @@
-[*.{js},*.{ts},*.{tsx}]
+[*.{js,ts,tsx,css}]
 charset = utf-8
 indent_style = space
 indent_size = 2
